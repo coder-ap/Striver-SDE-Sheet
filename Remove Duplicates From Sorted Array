@@ -1,0 +1,5 @@
+def removeDuplicates(arr,n):
+    
+    z=set(arr)
+    
+    return len(z)
