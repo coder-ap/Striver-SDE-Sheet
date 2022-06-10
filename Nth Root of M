@@ -1,0 +1,8 @@
+def findNthRootOfM(n,m):
+    
+    z=pow(m,1/n)
+    
+    final='%.6f'%z
+    
+    return final
+    
