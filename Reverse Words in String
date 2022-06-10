@@ -1,0 +1,10 @@
+def reverseString(str):
+	
+    s=""
+    z=str.split()
+    f=z[::-1]
+    
+    for i in f:
+        s=s+i+" "
+        
+    return s
